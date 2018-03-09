@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     resources :projects
   end
   resources :members
+  resources :projects
   get 'home/index'
 
   root :to => "home#index"
